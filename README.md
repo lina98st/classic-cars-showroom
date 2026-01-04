@@ -63,10 +63,3 @@ classic-cars-showroom/
 - Responsive design
 - Modern user interface
 
-## License
-
-MIT
-
-## Contact
-
-For questions or inquiries, please open an issue on GitHub.
