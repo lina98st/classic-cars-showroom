@@ -1,16 +1,72 @@
-# React + Vite
+# Classic Cars Showroom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application for a classic car dealership, showcasing vintage and collector automobiles.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** - UI framework
+- **Vite** - Build tool and dev server
+- **React Router** - Client-side routing
+- **Vanilla CSS** - Styling
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- Node.js (v14 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/lina98st/classic-cars-showroom.git
+cd classic-cars-showroom
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+
+## Project Structure
+
+```
+classic-cars-showroom/
+├── src/
+│   ├── components/     # Reusable components
+│   ├── pages/          # Page components
+│   ├── assets/         # Images, fonts, etc.
+│   ├── App.jsx         # Main app component
+│   └── main.jsx        # Entry point
+├── public/             # Static assets
+└── package.json
+```
+
+## Features
+
+- Browse classic car inventory
+- Detailed vehicle information
+- Responsive design
+- Modern user interface
+
+## License
+
+MIT
+
+## Contact
+
+For questions or inquiries, please open an issue on GitHub.
