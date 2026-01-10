@@ -2,6 +2,8 @@
 
 A modern web application for a classic car dealership, showcasing vintage and collector automobiles.
 
+This project was created because I love classic cars and want to showcase the beauty of vintage automobiles.
+
 ## Tech Stack
 
 - **React** - UI framework
