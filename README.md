@@ -56,10 +56,3 @@ classic-cars-showroom/
 └── package.json
 ```
 
-## Features
-
-- Browse classic car inventory
-- Detailed vehicle information
-- Responsive design
-- Modern user interface
-
