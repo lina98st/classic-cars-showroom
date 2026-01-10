@@ -14,7 +14,7 @@ A modern web application for a classic car dealership, showcasing vintage and co
 ### Prerequisites
 
 - Node.js (v14 or higher)
-- npm or yarn
+- npm
 
 ### Installation
 
@@ -43,14 +43,14 @@ npm run dev
 - `npm run preview` - Preview production build locally
 
 ## Project Structure
-
 ```
 classic-cars-showroom/
 ├── src/
-│   ├── components/     # Reusable components
-│   ├── pages/          # Page components
+│   ├── components/     # Reusable components (Navbar, Footer)
+│   ├── pages/          # Page components (Home, Inventory, About, Contact)
 │   ├── assets/         # Images, fonts, etc.
-│   ├── App.jsx         # Main app component
+│   ├── App.jsx         # Main app component with routing
+│   ├── App.css         # Global styles
 │   └── main.jsx        # Entry point
 ├── public/             # Static assets
 └── package.json
