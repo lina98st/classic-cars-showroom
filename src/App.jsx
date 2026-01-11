@@ -1,13 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
-
-// Pages will be created next
 import Home from './pages/Home'
 import Inventory from './pages/Inventory'
 import About from './pages/About'
 import Contact from './pages/Contact'
-
-// Components
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
