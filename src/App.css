@@ -31,7 +31,7 @@ body {
   padding: 2rem;
 }
 
-/* Home Page Styles */
+/* Home Page */
 .home {
   width: 100%;
 }
@@ -79,7 +79,7 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Footer Styles */
+/* Footer */
 .footer {
   background-color: var(--primary-color);
   color: var(--text-light);
@@ -122,4 +122,48 @@ body {
   text-align: center;
   padding-top: 2rem;
   border-top: 1px solid rgba(201, 169, 97, 0.3);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  color: var(--text-light);
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
 }
